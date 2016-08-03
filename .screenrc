@@ -7,7 +7,7 @@ hardstatus string '%{gk}[%{G}%H%{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)
 vbell off
 shell -$SHELL
 
-#use Ctrl+Left & Ctrl+Right
+#use alt+Left & alt+Right
 bindkey ^[[1;5D prev
 bindkey ^[[1;5C next
 bindkey \033[D prev
